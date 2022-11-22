@@ -1,0 +1,270 @@
+/* Global  */
+
+@media screen and (max-width: 999px) {
+    .competences {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-card{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .projets {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-card{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'robotoregular';
+    background-color: #100e17;
+    color: #fff;
+}
+
+.rl {
+    font-family: 'robotolight';
+}
+
+.rt {
+    font-family: 'robotothin';
+}
+
+.py-6 {
+    padding-top: 12rem !important;
+    padding-bottom: 12rem !important;
+}
+
+.py-7 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+
+.pb-6 {
+    padding-bottom: 12rem !important;
+}
+
+
+li {
+    list-style-type: none !important;
+}
+
+li a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.mtmb {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.alert-dark {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navbar  */
+
+.nav-perso {
+    justify-content: space-between;
+    width: 60%;
+}
+
+.nav-icone {
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 40%;
+}
+
+.navbar {
+    font-weight: 600;
+    background-color: #202026 !important;
+}
+
+.navbar-nav a {
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: #08c5d1 !important;
+    border-bottom: 2px solid #fff !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #08c5d1 !important;
+}
+
+/* Accueil  */
+
+.card-presentation {
+    background-color: #100e17;
+    box-shadow: 0rem 0 1.5rem #000;
+    --bs-card-border-radius: 1.5rem;
+}
+
+.card-title {
+    font-size: 3.5rem;
+}
+
+.card-subtitle {
+    color: #07acb6;
+}
+
+.accueil {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.accueil-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200px;
+}
+
+/* A propos  */
+
+.title-perso {
+    font-size: 2.5rem;
+    color: white !important;
+}
+
+.about-code ul {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-code ul li {
+    display: inline-block;
+}
+
+.about-code ul li span {
+    border: 1px solid #08c5d1;
+    padding: 3px;
+}
+
+.formations-card {
+    background-color: #202026;
+    box-shadow: 0rem 0 1.5rem #000;
+    --bs-card-border-radius: 1.5rem;
+    width: 20%;
+}
+
+.formations-icone {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Compétences  */
+
+.skills-title {
+    font-size: 2.5rem;
+}
+
+.skills-card {
+    width: 25%;
+}
+
+/* Expériences  */
+
+.xp-card {
+    background-color: #202026;
+    box-shadow: 0rem 0 1.5rem #000;
+    --bs-card-border-radius: 1.5rem;
+    width: 30% !important;
+    padding: 1rem;
+}
+
+.xp-title {
+    font-size: 1.7rem;
+}
+
+.xp-subtitle {
+    font-size: 1rem;
+}
+
+.xp-content {
+    font-size: 0.8rem;
+    margin: auto;
+}
+
+.xp-domaine-tech {
+    color: #07acb6;
+}
+
+.xp-domaine-vente {
+    color: #b69007;
+}
+
+.xp-domaine-manutention {
+    color: #6107b6;
+}
+
+.xp-company {
+    color: #e1e1e1;
+}
+
+.xp-date {
+    color: #cacaca;
+}
+
+/* Projets  */
+
+.projects-title {
+    font-size: 1rem;
+}
+
+.projects-card {
+    background-color: #202026;
+}
+
+/* Contact  */
+
+.contact-card a {
+    color: white !important;
+}
